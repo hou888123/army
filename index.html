@@ -28,12 +28,14 @@
 <script type="text/javascript" src="js/scroll.js"></script>
 	<script src="https://assets.adobedtm.com/7d408cdaa164/f5832283e3d1/launch-d281a797c814-staging.min.js" async></script>
 	<script>
-
-		window.dataLayer.push({
+if (typeof window !== 'undefined') {
+        window.dataLayer = window.dataLayer || [];
+         window.dataLayer.push({
        'event': 'virtual_page_view',
        'page_category': 'CUBE Search',
        'page_name': 'session id'
 })
+      }
 			</script>
 </head>
 
